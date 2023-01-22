@@ -14,7 +14,7 @@
     xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/5.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
-    id="16522c6c-95fc-4298-bd20-466c0ff285bd"
+    xmlns:re="http://www.polarsys.org/capella/common/re/5.0.0" id="16522c6c-95fc-4298-bd20-466c0ff285bd"
     name="RaspberryPi4">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="cc704d32-5297-4b56-b6c7-1c4eb476b66d"/>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
@@ -36,6 +36,45 @@
       key="projectApproach" value="SingletonComponents"/>
   <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
       id="f0163563-4071-414b-a067-186d51204fac" name="RaspberryPi4">
+    <ownedExtensions xsi:type="re:RecCatalog" id="abab6a46-d4df-469d-8167-e13f20644095"
+        name="REC Catalog">
+      <ownedElements xsi:type="re:CatalogElement" id="4c7b990f-63df-49e0-85cf-b2d9a5f9e206"
+          name="REC_RaspberryPi4" defaultReplicaCompliancy="#91e071f1-cffa-45b0-8d78-2ba800b1f1ed">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="289d116e-080c-44a3-97ef-12734e4c4400"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#41d3694f-f7b9-4cb0-bae1-c2fa25b2302d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="50977d1d-d542-4724-bce1-9691a0091552"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#7710d046-f28e-4351-b31f-23c6210faf24"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d912d5a5-d243-4836-857f-6625455f8069"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#8edd8b47-05e2-482b-988a-beabe5bee546"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3cf7ddda-a3f3-4a41-a4c8-5bf973b0ea36"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#d5bda6b9-af0a-41ad-afb7-b0fd308bb0af"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4e7bb9f2-2850-4d14-b2a1-e982ea6d6b2c"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#c2791b75-009f-4716-8964-b289adaedbbe"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b87d60c3-381f-4719-bad4-bff9f7df2737"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#a2b14c4d-7f60-4df3-aa7f-2d77d4792d3d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a8b68278-4416-41a4-a9c2-9367a1f4b5d6"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#f7360754-0d3c-4a0f-9040-3ed0df53bc23"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="00a820c8-7b80-40ed-b6fb-c7e209b2cf43"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#4e5a52b5-d3cc-43a6-aafd-e5f521000741"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4159b0db-783c-4c65-a38e-db0d4cbe5ee0"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#f8f5b38f-db18-4632-ba6b-5450ae608c11"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0693b317-691c-49ee-957e-65599336025a"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#243df066-2b46-4c76-9de9-62779c62b8dd"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="10853ed8-ba59-44e7-a91b-d5c8806d082f"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#9744cadf-0937-4f4a-9c75-fee9cf8d3cab"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="16b1073b-5889-4c60-98f6-0543828ae8d5"
+            source="#4c7b990f-63df-49e0-85cf-b2d9a5f9e206" target="#2e9405d8-fd82-4abf-befe-7d0f041ed54c"/>
+      </ownedElements>
+      <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="a513338a-0b76-4714-b1cd-d195473358cc"
+          name="Compliancy Definitions">
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="91e071f1-cffa-45b0-8d78-2ba800b1f1ed"
+            name="BLACK_BOX"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="971db3d0-7305-485b-885e-2e4528d380de"
+            name="CONSTRAINT_REUSE"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="e73da561-ae9c-42fc-9550-738233149f1d"
+            name="INHERITANCY_REUSE"/>
+      </ownedCompliancyDefinitionPkg>
+    </ownedExtensions>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
         id="1382b0a4-0f84-4876-9206-0fa405e144e7" name="System Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemFunctionPkg"
